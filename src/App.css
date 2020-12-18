@@ -24,6 +24,36 @@
   color: white;
 }
 
+.Form {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Modal {
+  background-color: black;
+  /* min-height: 80vh; */
+  /* min-width: 80vh; */
+  color: white;
+  /* width: auto; */
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
 .App-link {
   color: #61dafb;
 }
